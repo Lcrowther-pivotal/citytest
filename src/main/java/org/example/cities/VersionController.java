@@ -8,6 +8,6 @@ public class VersionController {
 
     @RequestMapping("/version")
     public String index() {
-        return "Welcome to Bangalore";
+        return "Welcome to EMC India";
     }
 }
