@@ -10,7 +10,7 @@ buildscript {
         classpath("org.cloudfoundry:cf-gradle-plugin:1.0.2")
     }
 }
-
+//test
 allprojects {
     if (project.hasProperty('buildversion')) {
         project.version = project.buildversion
